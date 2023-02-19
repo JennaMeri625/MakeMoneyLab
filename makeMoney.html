@@ -1,1 +1,43 @@
-ffdafdsa
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Make Money!</title>
+    <link rel="stylesheet" href="makeMoney.css">
+</head>
+
+<body>
+
+  <form>
+
+    <label for="howManyTotal" id="howMany">How many?</label>
+    <input type="text" id="howManyInput">
+
+    <label for="whichCoins" id="whichCoins">Which coin?</label>
+    <select id="whichCoinsSelection">
+        <option value="chooseOne">Choose One</option>
+        <option value="penny"  id="penny">Penny</option>
+        <option value="nickel"  id="nickel">Nickel</option>
+        <option value="dime"  id="dime">Dime</option>
+        <option value="quarter"  id="quarter">Quarter</option>
+    </select>
+
+  </form>  
+
+<button id="button">Make Money!</button>
+
+<div class="circles">
+    <div id="dimeCircle">Dime</div>
+  <div id="pennyCircle">Penny</div>
+  <div id="nickelCircle">Nickel</div>
+  
+  <div id="quarterCircle">Quarter</div>
+</div>
+
+    <script src="makeMoney.js"></script>
+
+</body>
+
+</html>

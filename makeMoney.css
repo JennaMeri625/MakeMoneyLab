@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+}
+
+body {
+    margin-left: 20px;
+}
+
+form {
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+padding: 20px;
+}
+
+button {
+    margin-left: 20px;
+    margin-bottom: 20px;
+    background-color: turquoise;
+}
+
+#howMany{
+justify-content: flex-start;
+margin-bottom: 5px;
+}
+
+#howManyInput {
+width: 15px;
+justify-content: flex-end;
+margin-bottom: 15px;
+}
+
+#whichCoins {
+    justify-content: flex-start;
+    margin-bottom: 5px;
+}
+
+#whichCoinsSelection {
+justify-content: flex-end;
+width: 100px;
+}
+
+#penny {
+color: #b87333; 
+}
+
+#nickel{
+color: #b2b1ae;
+}
+
+#dime {
+color: #727472;
+}
+
+#quarter {
+color: silver;
+}
+
+.circles {
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+}
+
+#quarterCircle {
+    height: 125px;
+    width: 125px;
+    background-color: silver;
+    border-radius: 50%;
+    display: inline-block;
+    line-height: 125px;
+    text-align: center;
+}
+
+#pennyCircle{
+    height: 75px;
+    width: 75px;
+    background-color: #ad6f69;
+    border-radius: 50%;
+    display: inline-block;
+    line-height: 75px;
+    text-align: center;
+}
+
+#nickelCircle {
+    height: 100px;
+    width: 100px;
+    background-color: silver;
+    border-radius: 50%;
+    display: inline-block;
+    line-height: 100px;
+    text-align: center;
+}
+
+#dimeCircle {
+    height: 65px;
+    width: 65px;
+    background-color: silver;
+    border-radius: 50%;
+    display: inline-block;
+    line-height: 65px;
+    text-align: center;
+}
