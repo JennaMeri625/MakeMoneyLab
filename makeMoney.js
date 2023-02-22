@@ -2,8 +2,17 @@
 (() => {
     const howManyInput = document.getElementById('number');
     const coinType = document.getElementById('coinType');
+    // console.log(coinType);
+    // const coins = document.getElementById('coins');
+    // let coinType;
+    // for(let i =0; i<coins.length; i++){
+    //     if(coins[i].checked) {
+    //         coinType=coins[i].value;
+    //     }
+    // } 
     const makeMoneyButton = document.getElementById('makeMoneyButton');
     const coinContainer = document.getElementById('coin-container');
+
 function makeMoney(event) {
     event.preventDefault();
     const howManyInputValue = +howManyInput.value;
